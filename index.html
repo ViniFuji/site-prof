@@ -14,60 +14,66 @@
 <body> <div class="wrapper">
 
 
-  <header>
-    <!-- Navbar -->
-    
-    <!-- Navbar -->
-  
-    <!-- Background image -->
-    <div
-      class="p-5 text-center bg-image"
-      style="
-        background-image: url('../pagina-prof/css/FundoTitulo.jpg');
-        height: 500px;
-        
-        
-        background-size: cover;
-        
-      "
-    >
-      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-        <div class="d-flex justify-content-center align-items-center h-100">
-          <div class="text-white">
-            <h1 class="mb-3">Economia</h1>
-            <h4 class="mb-3">Tudo o que você precisa saber</h4>
-            <a class="btn btn-outline-light btn-lg" href="#!" role="button"
-            >Call to action</a>
-            
-          </div>
-        </div>
-      </div>
+
+  <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark" >
+    <div class="container-fluid">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#perfil">Perfi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Graduação">Graduação</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mercado">Mercado</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#SalarioLink">Salário</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#Faculdades">Faculdades</a>
+        </li>
+      </ul>
     </div>
-    <!-- Background image -->
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <header class="header">
+    <div class="brand-box">
+      <span class="brand">Example Brand</span>
+    </div>
+    
+    <div class="text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary-main">Economia</span>
+        <span class="heading-primary-sub">Tudo Que Você Precisa Saber Sobre Economia</span>
+      </h1>
+      <a href="#" class="btn btn-white btn-animated">Discover our tours</a>
+    </div>
   </header>
           
-            <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark" >
-              <div class="container-fluid">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" href="#perfil">Perfi</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Graduação">Graduação</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#mercado">Mercado</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#SalarioLink">Salário</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#Faculdades">Faculdades</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-
 
 
 
@@ -79,19 +85,23 @@
           </div>
 
 
-          <div class="clearfix" id="caixa1">
+          <div class="container mt-5"id="caixa">
+            <div class="row">
+              <div  id="salario">
             <img src="../site-prof/css/imgs/perfil.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="..." id="imagem">
           
            
             <p>A faculdade de Economia atrai quem gosta de matérias como História e Geografia, tem curiosidade sobre como a sociedade se organiza economicamente e também possui afinidade com a Matemática. O curso é do tipo bacharelado e tem duração média de quatro anos.<br>
               A grade curricular do curso de economia é bastante abrangente. Durante a faculdade, os estudantes aprendem os conceitos do pensamento econômico e da história econômica geral, para compreender a evolução da área durante o tempo. Além disso, a faculdade de Economia conta com matérias voltadas à prática da profissão, como matemática aplicada, estatística e econometria.</p>
           </div>
+            </div>
+          </div>
 
           <div class="container-sm" id="box">
 
   
             <span></span>
-            <h2>O Perfil de quem cursa economia</h2>
+            <h2>O Perfil De Quem Cursa Economia</h2>
         </div>
 
 
@@ -157,7 +167,7 @@
 
   
           <span></span>
-          <h2>Graduação do curso de economia</h2>
+          <h2>Graduação Do Curso De Economia</h2>
       </div>
 
       <div class="container mt-5"id="caixa">
@@ -222,7 +232,7 @@ Contudo, o contrário também ocorre. As DPs, ou dependência de disciplina, sur
 
   
   <span></span>
-  <h2>Mercado De Trabalho para quem cursa economia </h2>
+  <h2>Mercado De Trabalho Para Quem Cursa Economia </h2>
 </div>
 
 
@@ -241,7 +251,8 @@ Contudo, o contrário também ocorre. As DPs, ou dependência de disciplina, sur
     <div class="carousel-item active">
       <img src="../site-prof/css/imgs/economista.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block" id="caixatexto">
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;">
         <h5>Mercado Financeiro</h5>
         
                    <p> O economista pode atuar no Mercado Financeiro em seus vários segmentos, como corretoras, bancos, seguros e distribuidoras. No setor bancário, o profissional pode acompanhar o cenário econômico, programar e planejar empresas de acordo com o plano econômico e realizar um estudo de mercado para avaliar novos clientes e a concorrência.</p>
@@ -249,55 +260,62 @@ Contudo, o contrário também ocorre. As DPs, ou dependência de disciplina, sur
       </div>
     </div>
     <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="../site-prof/css/imgs/Agronomia.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;">
+        <h5>Economia Agroindustrial</h5>
+        <p>o profissional que optar pela área deve conhecer a dinâmica e as peculiaridades do mercado agrícola, como sazonalidade dos preços, principais atores do mercado mundial e política específica de cada setor, não apenas no Brasil, mas dos principais países produtores. Dependendo da função, é importante conhecer sobre a dinâmica dos mercados futuros.</p>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="../site-prof/css/imgs/economista1.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;">
+        <h5>Estudos de Mercado</h5>
+        <p>O Estudo de Mercado é uma área que tem o objetivo de analisar determinado mercado para um propósito específico. Caso alguma empresa queira abrir uma nova filial, por exemplo, pode solicitar esse serviço para averiguar qual o melhor lugar para isso.
+
+          Além de realizar estudos focados em mercados específicos, o economista pode fazer a análise da conjuntura econômica no geral, com o objetivo de orientar sobre como tomar decisões.</p>
+        </div>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+          <img src="../site-prof/css/imgs/economia-2022.jpg" id="imagem3" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;">
+        <h5>Perícia Econômica</h5>
+        <p> O perito econômico é responsável por atuar na área judicial e tem o objetivo de examinar situações e fatos econômicos financeiros para dar o seu parecer em uma ação judicial que precise dessa análise. Apesar de trabalhar em tribunais, o profissional não é contratado por meio de um concurso público, já que não tem vínculo empregatício real com os tribunais.</p>
+      </div>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <img src="../site-prof/css/imgs/sim.jpg" class="d-block w-100" alt="..." id="imagem3">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;">
+        <h5>Economia de Empresas</h5>
+        <p>Economia de Empresas é aquela aplicada nas organizações e muito do que se estuda nesse ramo está relacionado com administração. Apesar de poder atuar de maneira parecida com a do administrador, essa especialidade está ligada a problemas econômicos relacionados a estratégia, principalmente planejamento estratégico.
+
+          Esse tipo é realizado em uma empresa com o objetivo de implementar e desenvolver medidas para alcançar determinada meta, como aumento de vendas e crescimento da instituição</p>
+      </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+      <div class="carousel-item">
+          <img src="../site-prof/css/imgs/orientação.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 5px;">
+        <h5>Orientação Financeira</h5>
+        <p>Os economistas também podem montar o próprio negócio, podendo atuar como orientador financeiro para pessoas físicas e empresas que querem organizar a vida financeira ou optar pelo investimento em algo que desejam.
+
+          O profissional é responsável por indicar ao cliente o melhor momento para investir, além de orientar os tipos de financiamento e analisar taxas de juros e fontes de fomento, responsáveis pelo empréstimo de capital.</p>
+      </div>
       </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
+    
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -345,7 +363,7 @@ Contudo, o contrário também ocorre. As DPs, ou dependência de disciplina, sur
 
   
   <span></span>
-  <h2>Quanto ganha alguém que cursou Economia?</h2>
+  <h2>Quanto Ganha Alguém Que Cursou Economia?</h2>
 </div>
 
 
@@ -367,10 +385,104 @@ Contudo, o contrário também ocorre. As DPs, ou dependência de disciplina, sur
   
   <span></span>
   <h2>
-    Faculdades com cursos de Economia</h2>
+    Faculdades Com Cursos De Economia</h2>
 </div>
 
 
+<div class="content d-flex align-items-center justify-content-center">
+        <div class="container rounded">
+            <div id="facul" class="h1 fw-bold text-center mt-2">Faculdades Mais Prestigiadas Que Possuam O Curso De Economia   </div>
+            
+            <div class="rollers position-relative overflow-hidden">
+                <div class="start-roller"></div>
+                <div class="wrapper">
+                    <div class="items-container roll-LL">
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ1.jpg" alt="" class="company">
+                        </div>
+                        <div class="item">
+                                <img src="../site-prof/css/imgs/univ2.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ3.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                              <img src="../site-prof/css/imgs/univ4.jfif" alt="" class="company">
+                        </div>
+                        <div class="item">
+                              <img src="../site-prof/css/imgs/univ5.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ6.jpg" alt="" class="company">
+                        </div>
+                    </div>
+                    <div class="items-container roll-RL">
+                        <div class="item">
+                              <img src="../site-prof/css/imgs/univ1.jpg" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ2.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ3.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ4.jfif" alt="" class="company">
+                        </div>
+                          <div class="item">
+                            <img src="../site-prof/css/imgs/univ5.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                             <img src="../site-prof/css/imgs/univ6.jpg" alt="" class="company">
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <div class="items-container reverse-roll-LL">
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ1.jpg" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ2.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ3.png" alt="" class="company">
+                        </div>
+                          <div class="item">
+                            <img src="../site-prof/css/imgs/univ4.jfif" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ5.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ6.jpg" alt="" class="company">
+                        </div>
+                    </div>
+                    <div class="items-container reverse-roll-RL">
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ1.jpg" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="https://www.freepnglogos.com/uploads/sprint-png-logo/brand-sprint-png-logo-11.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ2.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ3.png" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ4.jfif" alt="" class="company">
+                        </div>
+                        <div class="item">
+                            <img src="../site-prof/css/imgs/univ5.png" alt="" class="company">
+                        </div>
+                    </div>
+                </div>
+                <div class="end-roller"></div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -387,14 +499,6 @@ Contudo, o contrário também ocorre. As DPs, ou dependência de disciplina, sur
 
 
 
-
-<div class="container-sm" id="box">
-
-  
-  <span></span>
-  <h2>
-    Faculdades com cursos de Economia</h2>
-</div>
 
 
 
@@ -511,193 +615,36 @@ Contudo, o contrário também ocorre. As DPs, ou dependência de disciplina, sur
 
 
 
-
-<footer class="bg-dark text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-
-      <!-- Github -->
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
-
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
-        <!--Grid row-->
-        <div class="row d-flex justify-content-center">
-          <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Sign up for our newsletter</strong>
-            </p>
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Services</h3>
+                  <ul>
+                      <li><a href="#">Web design</a></li>
+                      <li><a href="#">Development</a></li>
+                      <li><a href="#">Hosting</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>About</h3>
+                  <ul>
+                      <li><a href="#">Company</a></li>
+                      <li><a href="#">Team</a></li>
+                      <li><a href="#">Careers</a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                  <h3>Company Name</h3>
+                  <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
+              </div>
+              <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
           </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control" />
-              <label class="form-label" for="form5Example21">Email address</label>
-            </div>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Subscribe
-            </button>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
-
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white">Link 4</a>
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
+          <p class="copyright">Company Name © 2018</p>
       </div>
-      <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-
-
-
+  </footer>
+</div>
 
 
 
