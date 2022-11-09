@@ -13,7 +13,7 @@
 body{
     
     background: linear-gradient(to right, #000000, #0c1022);
-
+ z-index: -4;
     min-height: 100vh;
     
 
@@ -94,17 +94,33 @@ body{
     margin-top: 3% ;
     border-radius: 6px;
     color:#fff;
-    font-size: 1em;
+    font-size: larger;
     width: 80%;
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(9, 0, 128));
+    background: linear-gradient(to right, rgb(0, 0, 0) 30%,  rgb(9, 0, 128));
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    
+    position: relative;
     
     align-items: center;
     overflow:hidden;
 
     
 }
+.ul a{
+  list-style-type: circle;
+  background: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 #imagem{
     width: 600px;
@@ -124,7 +140,7 @@ body{
     margin-top: 3% ;
     border-radius: 6px;
     color:#fff;
-    font-size: 1em;
+    font-size: larger;
     width: 60%;
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(9, 0, 128));
     padding: 10px;
@@ -460,7 +476,7 @@ font-size: 14px;
 }
 
 .container .rollers .wrapper .items-container .item .company{
-  filter: grayscale(100%);
+  filter: grayscale(80%);
   opacity: 0.2;
   width: 100%;
   object-fit: contain;
