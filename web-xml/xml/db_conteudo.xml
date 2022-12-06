@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<conteudo>
+<postagem codigo="1">
+   <titulo>Titulo da noticia</titulo>
+   <corpo>
+   noticia1 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+   Ab, odio. Voluptatem, repellat? Alias atque ipsa consectetur maiores. 
+   Odio maiores, ducimus perferendis, animi nemo, a soluta voluptatum autem
+    sequi distinctio corporis nisi ipsam magni suscipit optio fugiat eaque 
+    consequuntur nostrum quos explicabo! Iste quibusdam ullam voluptas deserunt 
+    amet. Eum recusandae ad sint sapiente culpa animi, laborum minima reiciendis 
+    laudantium dicta delectus itaque iste, fugit excepturi expedita blanditiis, 
+    a quasi id repudiandae vero praesentium impedit deserunt! Dolorum voluptatem 
+    magni similique asperiores maxime, facere deleniti ducimus at nemo, suscipit
+     necessitatibus repellat eligendi nulla deserunt? Voluptatibus rem modi, atque 
+     perferendis ipsa minus libero veniam!
+   </corpo>
+
+   <imagem_1>hulk.jpg</imagem_1>
+</postagem>
+
+<postagem codigo="2">
+   <titulo>Titulo da noticia 2</titulo>
+   <corpo>
+   noticia2 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+   Ab, odio. Voluptatem, repellat? Alias atque ipsa consectetur maiores. 
+   Odio maiores, ducimus perferendis, animi nemo, a soluta voluptatum autem
+    sequi distinctio corporis nisi ipsam magni suscipit optio fugiat eaque 
+    consequuntur nostrum quos explicabo! Iste quibusdam ullam voluptas deserunt 
+    amet. Eum recusandae ad sint sapiente culpa animi, laborum minima reiciendis 
+    laudantium dicta delectus itaque iste, fugit excepturi expedita blanditiis, 
+    a quasi id repudiandae vero praesentium impedit deserunt! Dolorum voluptatem 
+    magni similique asperiores maxime, facere deleniti ducimus at nemo, suscipit
+     necessitatibus repellat eligendi nulla deserunt? Voluptatibus rem modi, atque 
+     perferendis ipsa minus libero veniam!
+   </corpo>
+
+   <imagem_1>wolverine.jpg</imagem_1>
+</postagem>
+
+<postagem codigo="3">
+   <titulo>Titulo da noticia 3</titulo>
+   <corpo>
+   noticia3 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+   Ab, odio. Voluptatem, repellat? Alias atque ipsa consectetur maiores. 
+   Odio maiores, ducimus perferendis, animi nemo, a soluta voluptatum autem
+    sequi distinctio corporis nisi ipsam magni suscipit optio fugiat eaque 
+    consequuntur nostrum quos explicabo! Iste quibusdam ullam voluptas deserunt 
+    amet. Eum recusandae ad sint sapiente culpa animi, laborum minima reiciendis 
+    laudantium dicta delectus itaque iste, fugit excepturi expedita blanditiis, 
+    a quasi id repudiandae vero praesentium impedit deserunt! Dolorum voluptatem 
+    magni similique asperiores maxime, facere deleniti ducimus at nemo, suscipit
+     necessitatibus repellat eligendi nulla deserunt? Voluptatibus rem modi, atque 
+     perferendis ipsa minus libero veniam!
+   </corpo>
+
+   <imagem_1>mm.png</imagem_1>
+</postagem>
+
+
+</conteudo>
